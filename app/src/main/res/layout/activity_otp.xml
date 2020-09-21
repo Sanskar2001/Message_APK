@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".OtpActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:text="Verifying +918130800795"
+        android:layout_gravity="center|top"
+        android:layout_marginTop="20dp"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:textColor="@color/colorPrimary"
+        android:layout_height="wrap_content"
+        android:id="@+id/phnotv"></TextView>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center|top"
+        android:layout_marginTop="65dp"
+
+        android:textSize="20sp"
+       android:id="@+id/messagetv"
+        >
+    </TextView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="120dp"
+        android:layout_gravity="center|top"
+        android:text="Seconds remaining:30"
+        android:id="@+id/countertv"
+        ></TextView>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center|top"
+        android:textSize="20sp"
+        android:gravity="center"
+        android:hint="______"
+        android:background="@null"
+        android:inputType="number"
+        android:maxLength="6"
+        android:layout_marginTop="150dp"
+        android:letterSpacing="0.8"
+        android:id="@+id/otpbox"></EditText>
+
+    <com.google.android.material.button.MaterialButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SEND VERIFICATION CODE"
+        android:layout_marginTop="260dp"
+        android:layout_gravity="center|top"
+        android:id="@+id/sendb"
+        android:onClick="onClick"
+        ></com.google.android.material.button.MaterialButton>
+
+    <com.google.android.material.button.MaterialButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="RESEND OTP"
+        android:layout_marginTop="350dp"
+        android:layout_gravity="center|top"
+        android:id="@+id/resendb"
+        android:onClick="onClick"
+        ></com.google.android.material.button.MaterialButton>
+
+
+</FrameLayout>

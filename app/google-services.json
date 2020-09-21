@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "27227603415",
+    "firebase_url": "https://clonewhatsapp-625fb.firebaseio.com",
+    "project_id": "clonewhatsapp-625fb",
+    "storage_bucket": "clonewhatsapp-625fb.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:27227603415:android:dbe61ed02aec756b6d8b92",
+        "android_client_info": {
+          "package_name": "com.san22.clonewhatsapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "27227603415-np0t45ooetpf87eio6mjir3hmor4higj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAacafpmivUOuLN1KpZ8WKIH9WJTXvsMMw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "27227603415-np0t45ooetpf87eio6mjir3hmor4higj.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

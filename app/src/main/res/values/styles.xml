@@ -1,0 +1,32 @@
+<resources>
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="RoundedImageView">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">60dp</item>
+    </style>
+
+
+    <style name="RoundedImageView2">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">33dp</item>
+    </style>
+<style name="RoundedImageView3">
+    <item name="cornerFamily">rounded</item>
+    <item name="cornerSize">22dp</item>
+    <item name="background">@color/colorPrimary</item>
+</style>
+
+    <style name="RoundedImageView4">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">50dp</item>
+        <item name="background">@color/colorPrimary</item>
+    </style>
+
+</resources>
